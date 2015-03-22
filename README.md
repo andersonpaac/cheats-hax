@@ -32,12 +32,14 @@ n , p , x , c traverse
 ```python 
 ok = 33
 ok=ok+30
+```
 >Quotes here , length = infinity
 
 #Git
 git config --global user.name "anderson"
 git config --global user.email ""
 git config --global color.ui auto
+git config --global alias.ci commit
 git add *
 git rm 
 git commit -m ""
