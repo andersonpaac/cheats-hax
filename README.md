@@ -2,6 +2,8 @@
 
 
 ssh-keygen -t rsa -C ""
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
 
 
 #VIM shortcuts
