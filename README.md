@@ -4,7 +4,7 @@
 ssh-keygen -t rsa -C ""
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
-
+ssh -T git@github.com
 
 #VIM shortcuts
 2w move two words forward
