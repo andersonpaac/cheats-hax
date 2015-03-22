@@ -52,6 +52,7 @@ git pull
 
 ##For new repos
 git remote add origin git@github.com:andersonpaac/cheats-hax.git
+
 git push -u origin master
 
 #Todo
