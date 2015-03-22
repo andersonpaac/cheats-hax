@@ -19,7 +19,20 @@ $ move to eol
 % up
 n , p , x , c traverse
 
-
+#Markdown
+** bold **
+* italics *
+~~ strikethrough~~
+1.one
+2.two
+1.three but one
+4.oho
+-unordered here
++and here too
+```python 
+ok = 33
+ok=ok+30
+>Quotes here , length = infinity
 
 
 #Todo
