@@ -55,8 +55,12 @@ git push
 
 git branch branchname
 git checkout branchname
-git merge branch
-git pull
+git pull origin branchname
+
+After .gitignore file
+git rm -r --cached .
+git add .
+git ci -m "Removed all unecessary files"
 
 ##For new repos
 git remote add origin git@github.com:andersonpaac/cheats-hax.git
@@ -70,3 +74,4 @@ locate
 regex
 vimrc file
 vim modules
+sendgrid
