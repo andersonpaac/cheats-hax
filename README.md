@@ -1,6 +1,4 @@
 #SSH Keys
-
-
 ssh-keygen -t rsa -C ""
 
 eval "$(ssh-agent -s)"
@@ -23,6 +21,11 @@ $ move to eol
 " down
 % up
 n , p , x , c traverse
+
+#PYTHON
+Built in objects
+1.	type(objectname)
+2.  inspect- (package): inspect(objectname) will return all class members of object
 
 #Markdown
 ** bold **
