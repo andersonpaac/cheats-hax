@@ -67,6 +67,20 @@ git remote add origin git@github.com:andersonpaac/cheats-hax.git
 
 git push -u origin master
 
+#Heroku
+##One time setup
+heroku login
+heroku keys:add
+
+##One time repo setup
+heroku git:remote -a <APPNAME>
+
+##Updating the repo
+git push heroku master
+
+##Heroku db migrate
+ heroku run rake db:migrate
+
 #Todo
 grep
 find
