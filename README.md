@@ -5,7 +5,13 @@ eval "$(ssh-agent -s)"
 
 ssh-add ~/.ssh/id_rsa
 
-ssh -T git@github.com
+#Linux
+##Processes
+ps aux #list all processes
+kill << pid>> #kills pid without sudo
+kill <<pid>> -9  #kills pid if previous doesnt' work
+
+
 
 #VIM shortcuts
 2w move two words forward
@@ -48,6 +54,9 @@ git config --global user.name "anderson"
 git config --global user.email ""
 git config --global color.ui auto
 git config --global alias.ci commit
+ssh -T git@github.com
+
+
 git add *
 git rm 
 git commit -m ""
@@ -80,6 +89,7 @@ git push heroku master
 
 ##Heroku db migrate
  heroku run rake db:migrate
+
 
 #Todo
 grep
