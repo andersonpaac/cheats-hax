@@ -25,10 +25,11 @@ $ move to eol
 3> 3 indents
 
 #TMUX
+```
 " down
 % up
 n , p , x , c traverse
-
+```
 #PYTHON
 Built in objects
 ```Python
@@ -37,6 +38,7 @@ inspect.getmembers(object) #will return all class members of object
 ```
 
 #Markdown
+```
 ** bold **
 * italics *
 ~~ strikethrough~~
@@ -46,6 +48,7 @@ inspect.getmembers(object) #will return all class members of object
 4.oho
 -unordered here
 +and here too
+```
 ```python 
 ok = 33
 ok=ok+30
