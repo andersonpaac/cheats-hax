@@ -1,16 +1,17 @@
 #SSH Keys
+
+```
 ssh-keygen -t rsa -C ""
-
 eval "$(ssh-agent -s)"
-
 ssh-add ~/.ssh/id_rsa
-
+```
 #Linux
 ##Processes
+```
 ps aux #list all processes
 kill << pid>> #kills pid without sudo
 kill <<pid>> -9  #kills pid if previous doesnt' work
-
+```
 
 
 #VIM shortcuts
@@ -71,24 +72,28 @@ git add .
 git ci -m "Removed all unecessary files"
 ```
 ##For new repos
+```
 git remote add origin git@github.com:andersonpaac/cheats-hax.git
-
 git push -u origin master
-
+```
 #Heroku
 ##One time setup
+```
 heroku login
 heroku keys:add
-
+```
 ##One time repo setup
+```
 heroku git:remote -a <APPNAME>
-
+```
 ##Updating the repo
+```
 git push heroku master
-
+```
 ##Heroku db migrate
- heroku run rake db:migrate
-
+```
+heroku run rake db:migrate
+```
 
 #Todo
 grep
