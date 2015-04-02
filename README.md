@@ -14,7 +14,7 @@ kill <<pid>> -9  #kills pid if previous doesnt' work
 ```
 
 
-#VIM shortcuts
+##VIM shortcuts
 ```
 2w move two words forward
 3b move two words backword
@@ -25,7 +25,7 @@ $ move to eol
 2< two unindent
 3> 3 indents
 ```
-#TMUX
+##TMUX
 ```
 " down
 % up
