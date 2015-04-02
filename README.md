@@ -15,6 +15,7 @@ kill <<pid>> -9  #kills pid if previous doesnt' work
 
 
 #VIM shortcuts
+```
 2w move two words forward
 3b move two words backword
 $ move to eol
@@ -23,7 +24,7 @@ $ move to eol
 :set nopaste after copying indentation
 2< two unindent
 3> 3 indents
-
+```
 #TMUX
 ```
 " down
