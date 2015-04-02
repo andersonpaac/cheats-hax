@@ -30,8 +30,10 @@ n , p , x , c traverse
 
 #PYTHON
 Built in objects
-1.	type(objectname)
-2.  inspect- (package): inspect(objectname) will return all class members of object
+```Python
+type(objectname  #Built in )
+inspect.getmembers(object) #will return all class members of object
+```
 
 #Markdown
 ** bold **
