@@ -31,7 +31,7 @@ n , p , x , c traverse
 #PYTHON
 Built in objects
 ```Python
-type(objectname  #Built in )
+type(objectname)  #Built in 
 inspect.getmembers(object) #will return all class members of object
 ```
 
@@ -52,27 +52,24 @@ ok=ok+30
 >Quotes here , length = infinity
 
 #Git
+```
 git config --global user.name "anderson"
 git config --global user.email ""
 git config --global color.ui auto
 git config --global alias.ci commit
 ssh -T git@github.com
-
-
 git add *
 git rm 
 git commit -m ""
 git push
-
 git branch branchname
 git checkout branchname
 git pull origin branchname
-
 After .gitignore file
 git rm -r --cached .
 git add .
 git ci -m "Removed all unecessary files"
-
+```
 ##For new repos
 git remote add origin git@github.com:andersonpaac/cheats-hax.git
 
