@@ -11,7 +11,7 @@ ssh-add ~/.ssh/id_rsa
 ps aux #list all processes
 kill << pid>> #kills pid without sudo
 kill <<pid>> -9  #kills pid if previous doesnt' work
-sudo scutil --set HostName #updates hostname in terminal
+sudo scutil --set HostName <<hname>>#updates hostname in terminal
 ```
 
 
