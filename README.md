@@ -11,10 +11,18 @@ ssh-add ~/.ssh/id_rsa
 ps aux #list all processes
 kill << pid>> #kills pid without sudo
 kill <<pid>> -9  #kills pid if previous doesnt' work
-sudo scutil --set HostName <<hname>>#updates hostname in terminal
+``
+##Terminal
 ```
-
-
+sudo scutil --set HostName <<hname>>#updates hostname in terminal
+alias l=ls #Set l as ls
+```
+###just PS1 things
+	```
+	export PS1='\u@\h: ' #hides path
+	export PS1='> ' #super minimalistic only shows ">"
+	```
+	
 ##VIM shortcuts
 ```
 2w move two words forward
