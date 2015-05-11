@@ -118,11 +118,9 @@ git push heroku master
 heroku run rake db:migrate
 ```
 
-#Todo
-grep
-find
-locate
-regex
-vimrc file
-vim modules
-sendgrid
+#RPi
+##DISABLE WIFI POWER MANAGEMENT
+```
+sudo nano /etc/modprobe.d/8192cu.conf
+options 8192cu rtw_power_mgnt=0 rtw_enusbss=0
+```
