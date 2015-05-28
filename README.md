@@ -124,3 +124,11 @@ heroku run rake db:migrate
 sudo nano /etc/modprobe.d/8192cu.conf
 options 8192cu rtw_power_mgnt=0 rtw_enusbss=0
 ```
+#Restart WIFI config from /etc/wpa_supplicant/wpa_supplicant.conf
+wpa_cli reconfigure
+wpa_cli status #status
+#Fast nmap
+```
+nmap -sS -O 192.168.0.1-255 #OS detection + port scan
+nmap -sn  192.168.1.100-140
+```
