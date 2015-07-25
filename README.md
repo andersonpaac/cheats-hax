@@ -134,7 +134,18 @@ nmap -sn  192.168.1.100-140
 ```
 
 #Postgres
+##Create
 ```
-	
-
+CREATE DATABASE dbname;
+CREATE USER uname WITH PASSWORD 'thispass';
+CREATE TABLE MASTER(
+ID PRIMARY KEY NOT NULL,
+SYM TEXT NOT NULL,
+VAL REAL);
+```
+#General commands
+```
+\d # Gives description
+\q # Quits
+\d tablename #Gives tablename definition
 ```
