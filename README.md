@@ -132,3 +132,9 @@ wpa_cli status #status
 nmap -sS -O 192.168.0.1-255 #OS detection + port scan
 nmap -sn  192.168.1.100-140
 ```
+
+#Postgres
+```
+	
+
+```
