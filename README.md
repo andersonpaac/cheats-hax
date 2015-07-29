@@ -143,9 +143,27 @@ ID PRIMARY KEY NOT NULL,
 SYM TEXT NOT NULL,
 VAL REAL);
 ```
-#General commands
+##Insert
+```
+INSERT INTO TABNAME VALUES(0,'HELLO',234);
+
+
+```
+##General commands
 ```
 \d # Gives description
 \q # Quits
 \d tablename #Gives tablename definition
 ```
+
+#ALTER
+#Adding a column
+Adding a column will require a default value , constraints can be given as well with the alter command
+```
+	ALTER TABLE master ADD COLUMN exchange text NOT NULL DEFAULT 'NYSE';
+```
+#Updating column/values for specific rows
+```
+	UPDATE master SET exchange='NASDAQ' where id='AAPL';
+```
+
