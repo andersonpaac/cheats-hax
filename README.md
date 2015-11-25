@@ -134,6 +134,13 @@ nmap -sn  192.168.1.100-140
 ```
 
 #Postgres
+
+##Admin
+
+
+sudo su - postgres	#logs in postgres
+
+
 ##Create
 ```
 CREATE DATABASE dbname;
@@ -143,6 +150,7 @@ ID PRIMARY KEY NOT NULL,
 SYM TEXT NOT NULL,
 VAL REAL);
 ```
+
 ##Insert
 ```
 INSERT INTO TABNAME VALUES(0,'HELLO',234);
