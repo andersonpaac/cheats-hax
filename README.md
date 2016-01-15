@@ -123,6 +123,7 @@ heroku run rake db:migrate
 ```
 sudo nano /etc/modprobe.d/8192cu.conf
 options 8192cu rtw_power_mgnt=0 rtw_enusbss=0
+arp -a -i bridge100									#Discovery on interface bridge100
 ```
 #Restart WIFI config from /etc/wpa_supplicant/wpa_supplicant.conf
 wpa_cli reconfigure
