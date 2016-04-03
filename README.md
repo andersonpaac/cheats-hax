@@ -143,7 +143,7 @@ lsof -i -P | grep -i "listen"
 
 
 sudo su - postgres	#logs in postgres
-
+pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
 
 ##Create
 ```
