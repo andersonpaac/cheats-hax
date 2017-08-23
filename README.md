@@ -1,37 +1,38 @@
-#SSH Keys
+# SSH Keys
 
 ```
 ssh-keygen -t rsa -C ""
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 ```
-#Linux
+
+# Linux
 
 
-##Processes
+## Processes
 ```
 ps aux #list all processes
 kill << pid>> #kills pid without sudo
 kill <<pid>> -9  #kills pid if previous doesnt' work
 top #shows the processes taking the max amount of resources
 ```
-###Searching
+### Searching
 ```
 grep -R "<<search-term>>" <<path here>> #Searches the entire folder recursively for the search term
 
 ```
-##Terminal
+## Terminal
 ```
 sudo scutil --set HostName <<hname>>#updates hostname in terminal
 alias l=ls #Set l as ls
 ```
-###just PS1 things
+### PS1 things
 ```
 export PS1='\u@\h: ' #hides path
 export PS1='> ' #super minimalistic only shows ">"
 ```
 	
-##VIM shortcuts
+## VIM shortcuts
 ```
 2w move two words forward
 3b move two words backword
@@ -44,13 +45,14 @@ $ move to eol
 o to create new line
 #ctrl+- or cmd+- works to zoom on windows/mac
 ```
-##TMUX
+
+## TMUX
 ```
 " down
 % up
 n , p , x , c traverse
 ```
-#PYTHON
+# PYTHON
 Built in objects
 ```Python
 type(objectname)  #Built in 
