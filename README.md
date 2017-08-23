@@ -59,7 +59,7 @@ type(objectname)  #Built in
 inspect.getmembers(object) #will return all class members of object
 ```
 
-#Markdown
+# Markdown
 ```
 ** bold **
 * italics *
@@ -77,7 +77,7 @@ ok=ok+30
 ```
 >Quotes here , length = infinity
 
-#Git
+# Git
 ```
 git config --global user.name "anderson"
 git config --global user.email ""
@@ -96,41 +96,41 @@ git rm -r --cached .
 git add .
 git ci -m "Removed all unecessary files"
 ```
-##For new repos
+## For new repos
 ```
 git remote add origin git@github.com:andersonpaac/cheats-hax.git
 git push -u origin master
 ```
-#Heroku
-##One time setup
+# Heroku
+## One time setup
 ```
 heroku login
 heroku keys:add
 ```
-##One time repo setup
+## One time repo setup
 ```
 heroku git:remote -a <APPNAME>
 ```
-##Updating the repo
+## Updating the repo
 ```
 git push heroku master
 ```
-##Heroku db migrate
+# #Heroku db migrate
 ```
 heroku run rake db:migrate
 ```
 
-#RPi
-##DISABLE WIFI POWER MANAGEMENT
+# RPi
+## DISABLE WIFI POWER MANAGEMENT
 ```
 sudo nano /etc/modprobe.d/8192cu.conf
 options 8192cu rtw_power_mgnt=0 rtw_enusbss=0
 arp -a -i bridge100	| grep -v "incomplete"								#Discovery on interface bridge100
 ```
-#Restart WIFI config from /etc/wpa_supplicant/wpa_supplicant.conf
+# Restart WIFI config from /etc/wpa_supplicant/wpa_supplicant.conf
 wpa_cli reconfigure
 wpa_cli status #status
-#Fast nmap
+# Fast nmap
 ```
 nmap -sS -O 192.168.0.1-255 #OS detection + port scan
 nmap -sn  192.168.1.100-140
@@ -139,15 +139,15 @@ nmap -sn  192.168.1.100-140
 ```
 lsof -i -P | grep -i "listen"
 ```
-#Postgres
+# Postgres
 
-##Admin
+## Admin
 
 
 sudo su - postgres	#logs in postgres
 pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
 
-##Create
+## Create
 ```
 CREATE DATABASE dbname;
 CREATE USER uname WITH PASSWORD 'thispass';
@@ -157,26 +157,26 @@ SYM TEXT NOT NULL,
 VAL REAL);
 ```
 
-##Insert
+## Insert
 ```
 INSERT INTO TABNAME VALUES(0,'HELLO',234);
 
 
 ```
-##General commands
+## General commands
 ```
 \d # Gives description
 \q # Quits
 \d tablename #Gives tablename definition
 ```
 
-#ALTER
-#Adding a column
+# ALTER
+# Adding a column
 Adding a column will require a default value , constraints can be given as well with the alter command
 ```
 	ALTER TABLE master ADD COLUMN exchange text NOT NULL DEFAULT 'NYSE';
 ```
-#Updating column/values for specific rows
+# Updating column/values for specific rows
 ```
 	UPDATE master SET exchange='NASDAQ' where id='AAPL';
 ```
